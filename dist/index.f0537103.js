@@ -1,0 +1,2 @@
+const shareButton=document.querySelector(".article__share-btn"),shareMenu=document.querySelector(".article__share-menu");let shareMenuToggled=!1;shareButton.addEventListener("click",(()=>{if(null!=shareMenuToggled&&null!=shareMenu)return shareMenuToggled?(shareButton.dataset.enabled="false",shareMenu.dataset.enabled="false"):(shareButton.dataset.enabled="true",shareMenu.dataset.enabled="true"),shareMenuToggled=!shareMenuToggled}));
+//# sourceMappingURL=index.f0537103.js.map
