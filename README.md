@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub - GrzywN/article-preview-component-master](https://github.com/GrzywN/article-preview-component-master)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://wizardly-galileo-5b1f11.netlify.app/)
 
 ## My process
 
