@@ -1,0 +1,50 @@
+.article {
+  font-family: "Manrope", sans-serif;
+}
+
+.article__header {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  color: #48556a;
+}
+
+.article__paragraph {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  color: #6d7f97;
+}
+
+.article__publisher-name {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  color: #48556a;
+}
+
+.article__date {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.12px;
+  color: #9eafc2;
+}
+
+@media screen and (max-width: 800px) {
+  .article {
+    font-family: "Manrope", sans-serif;
+  }
+  .article__header {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #48556a;
+  }
+}
+
+/*# sourceMappingURL=index.34df27b5.css.map */

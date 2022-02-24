@@ -1,0 +1,52 @@
+.article {
+  font-family: $font-family-manrope;
+  &__header {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.25px;
+    color: $Very-Dark-Grayish-Blue;
+  }
+  &__paragraph {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    letter-spacing: 0.12px;
+    color: $Desaturated-Dark-Blue;
+  }
+  &__publisher-name {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    letter-spacing: 0.12px;
+    color: $Very-Dark-Grayish-Blue;
+  }
+  &__date {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    letter-spacing: 0.12px;
+    color: $Grayish-Blue;
+  }
+  &__share-paragraph {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: $Grayish-Blue;
+  }
+}
+// Smaller screens
+@media screen and (max-width: 800px) {
+  .article {
+    font-family: $font-family-manrope;
+    &__header {
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.5rem;
+      letter-spacing: 0.2px;
+      color: $Very-Dark-Grayish-Blue;
+    }
+  }
+}
